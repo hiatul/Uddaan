@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+         <title>Parallax Content Slider with CSS3 and jQuery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Parallax Content Slider with CSS3 and jQuery" />
+        <meta name="keywords" content="slider, animations, parallax, delayed, easing, jquery, css3, kendo UI" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="cssSlider/demo.css" />
+        <link rel="stylesheet" type="text/css" href="cssSlider/style2.css" />
+		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="cssSlider/nojs.css" />
+		</noscript>
+    </head>
+    <body>        <div style="height: 565px;">
+
+			<div id="da-slider" class="da-slider">
+                            <div class="da-slide" style="background-image: url('img/Q1.jpg');background-size: 100% 100%;">
+					<h2>Food</h2>
+                                        <p>Q. Do you have party or a marriage at home ?</p>
+                                        <a href="questions.php" class="da-link">Read more</a>
+<!--					<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide" style="background-image: url('img/Q2(1).jpg');background-size: 100% 100%;">
+					<h2>Books</h2>
+					<p>Q. Not done B.ED, not a problem! It doesn’t need a degree to help others ?</p>
+                                        <a href="questions.php" class="da-link">Read more</a>
+					<!--<div class="da-img"><img src="images/3.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide" style="background-image: url('img/Q3(2).jpg');background-size: 100% 100%;">
+					<h2>Clothes</h2>
+					<p>Q. Wearing them few times, and throwing them away ?</p>
+                                        <a href="questions.php" class="da-link">Read more</a>
+					<!--<div class="da-img"><img src="images/1.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide" style="background-image: url('img/Q4(2).jpg');background-size: 100% 100%;">
+					<h2>Shoes</h2>
+					<p>Q. They are having foot sores! A spare pair would definitely help ?</p>
+                                        <a href="questions.php" class="da-link">Read more</a>
+					<!--<div class="da-img"><img src="images/4.png" alt="image01" /></div>-->
+				</div>
+                            
+                            <div class="da-slide" style="background-image: url('img/Q5.jpg');background-size: 100% 100%;">
+					<h2>Accessories</h2>
+					<p>Q. Length of a pencil does not matter, all that matters are the hands which are using them ?</p>
+                                        <a href="questions.php" class="da-link">Read more</a>
+					<!--<div class="da-img"><img src="images/4.png" alt="image01" /></div>-->
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+             </div>
+
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+    
+    </body>
+    
+</html>

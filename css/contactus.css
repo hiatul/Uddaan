@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2016, 1:24:29 PM
+    Author     : Varun
+*/
+
+.main .titlehead
+{
+    
+
+   height: 80px;
+   margin: auto;
+   float: none; 
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+   text-align: center;
+   line-height: 80px;
+   color: #ffffff
+}
+
+.main .contents{
+    
+    margin: auto;
+    float: none;
+}
+@media only screen and (min-width: 788px)
+{
+.mapdiv
+{
+    
+ padding: 10px;
+ height: 500px;
+    
+}
+#map
+{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.main .contents .part1
+{
+    
+    height: auto;
+    padding: 10px;
+}
+.comment
+    {
+        padding: 10px;
+        height: 500px;
+        color: white;
+        text-align: center;
+        background: rgba(0,0,0,0.3);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    }
+}
+
+@media only screen and (max-width: 788px)
+{
+    .comment
+    {
+        padding: 10px;
+        height: 350px;
+        color: white;
+        text-align: center;
+        background: rgba(0,0,0,0.3);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+        
+    }
+    
+.mapdiv
+{
+    padding: 20px;
+    height: 350px;
+    
+    
+}
+
+#map
+{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.main .contents .part1
+{
+    
+    height: auto;
+    padding: 20px;
+}
+}
+
+h1
+{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h2
+{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.main p
+{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}

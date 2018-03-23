@@ -1,0 +1,30 @@
+.content
+{
+    height: auto;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    margin: auto;
+    float: none;
+}
+
+.questions
+{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.questions p
+{
+    font-size: 22px;
+    padding: 20px;
+    
+}
+
+.questions h2{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: rgba(120,0,0,0.5);
+}

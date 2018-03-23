@@ -1,0 +1,154 @@
+.main .contents
+{
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.6);
+    margin: auto;
+    float: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+.main .contents .part1
+{
+    height: auto;
+    overflow: hidden;    
+    float: left;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main .contents .part2
+{
+    height: auto;
+    overflow: hidden;  
+    float: right;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.part1 h2
+{
+    text-align: center;
+}
+
+.part2 h2
+{
+    text-align: center;
+}
+
+
+ 
+     
+   
+@media only screen and (min-width: 788px)
+{
+    .main
+    {
+        height: auto;
+        overflow: hidden;
+        margin-top: 9em;
+    }
+    
+   .headcontent
+    {
+        height: 100%;
+        text-align: center;
+        margin-right: 16.66%;
+        margin-top: 40px;
+        
+    }
+    
+    .headcontent p
+    {
+        text-align: center;
+    }
+    
+    .headcontentRes
+    {
+        display: none;
+    }
+    
+    
+    .headlogoRes
+    {
+        display: none;
+    }
+    
+    .headlogoNoRes
+    {
+        display: block;
+    }
+    
+      .borderRes
+    {
+        border-left:3px solid oldlace;
+    }
+}
+
+@media only screen and (max-width: 788px)
+{
+    .main
+    {
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .headcontent
+    {
+        height: 100%;
+        text-align: center;
+        margin-right: 16.66%;
+        margin-top: 20px;
+        position: relative;
+        display: none;
+        
+    }
+    
+    .headcontentRes
+    {
+        display: block;
+        width: 65%;
+        position: relative;
+        margin: auto;
+        float: left;
+        color: gray;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+     .headcontentRes h3{
+        margin: auto;
+        float: none;
+    }
+    .headlogoRes
+    {
+        display: block;
+        width: 15%;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    
+    .headlogoNoRes
+    {
+        display: none;
+    }
+    
+  
+}
+

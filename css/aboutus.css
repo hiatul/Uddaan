@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2016, 5:00:14 PM
+    Author     : Varun
+*/
+.main h2
+{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.main p
+{
+    line-height: 35px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.aboutcontactMain{
+    
+    height: auto;
+/*    background: yellow;*/
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    float: none;
+}
+
+
+
+.aboutcontactMain .boxContainer .details{
+    width: 165px; 
+    float: none; 
+    margin: auto;
+    background: #f9f9f9;
+    height: 165px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 160px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.3);
+    transition:width 0s,height 1s,border-bottom-left-radius 1s,border-bottom-right-radius 1s,box-shadow 1s;
+
+}
+
+.aboutcontactMain .boxContainer .details .circlediv{
+    width: 160px;
+    margin: auto;
+    float: none;
+    line-height: 160px;
+    height: 160px;
+    background: yellow;
+    border-radius: 160px;
+    display: block;
+    
+}
+
+.aboutcontactMain .boxContainer .details:hover
+{
+
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.5);
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    
+}
+
+.aboutcontactMain .boxContainer .details h3,h4,h5
+{
+    padding: 5px;
+    overflow: hidden;
+   margin-top: 10px;
+    
+}
+
+
+.aboutcontactMain .boxContainer .details p
+{
+    text-justify: auto;
+    padding: 5px;
+    overflow: hidden;
+
+   margin-top: 10px;
+    
+}
+
+
+@media only screen and (max-width: 788px)
+{
+    .aboutcontactMain .boxContainer{
+/*    background: #0099cc;*/
+    padding: 20px;
+    height:auto;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    float: none;
+    
+    
+}
+    
+    
+}
+
+@media only screen and (min-width: 788px)
+{
+    
+    .aboutcontactMain .boxContainer{
+/*    background: #0099cc;*/
+    padding: 20px;
+    height:auto;
+    width: 210px;
+    padding-top: 30px;
+    float: left;
+    
+    
+}
+}
